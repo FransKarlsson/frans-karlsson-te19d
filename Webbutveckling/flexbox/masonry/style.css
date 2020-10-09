@@ -1,0 +1,26 @@
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    height: 580 px;
+}
+
+.item {
+    width: 32;
+    margin-bottom: 2%;
+    background-color: bisque;
+}
+
+.item:nth-child(3n+1) { order: 1;}
+.item:nth-child(3n+2) { order: 2;}
+.item:nth-child(3n) { order: 3;}
+
+.container::before,
+container::after {
+    content: "";
+    flex-basis: 100%;
+    width 0;
+    order 2;
+}
+
