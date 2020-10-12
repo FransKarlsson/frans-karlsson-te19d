@@ -17,7 +17,7 @@
 .item:nth-child(3n) { order: 3;}
 
 .container::before,
-container::after {
+.container::after {
     content: "";
     flex-basis: 100%;
     width 0;
