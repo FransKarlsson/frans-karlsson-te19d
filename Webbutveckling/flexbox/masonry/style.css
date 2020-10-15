@@ -7,6 +7,7 @@
 }
 
 .item {
+    display: flex;
     width: 32;
     margin-bottom: 2%;
     background-color: bisque;
@@ -20,7 +21,7 @@
 .container::after {
     content: "";
     flex-basis: 100%;
-    width 0;
-    order 2;
+    width: 0;
+    order: 2;
 }
 
