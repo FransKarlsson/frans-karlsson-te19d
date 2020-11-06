@@ -19,19 +19,20 @@ header {
   margin-top: 10px;
   
 }
-img{
-  width: 50px;
-}
+
+
 .container-meny {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 50%;
+    border-style:solid;
+    border-color:blue;
     
     
     
   }
-  
+
   .item-meny {
     border-radius: 10px;
     background-color: rgb(104, 63, 36);
