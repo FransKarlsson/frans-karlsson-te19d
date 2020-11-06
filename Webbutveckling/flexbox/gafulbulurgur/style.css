@@ -1,6 +1,7 @@
 
 body {
-  background-image: url()
+  background-image: url("https://media.discordapp.net/attachments/743432951521476750/769295608267145216/cellarbg2.png");
+  background-size: cover
 }
 header {
   text-align: center;
@@ -18,12 +19,16 @@ header {
   margin-top: 10px;
   
 }
-
+img{
+  width: 50px;
+}
 .container-meny {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 50%
+    width: 50%;
+    
+    
     
   }
   
@@ -31,10 +36,12 @@ header {
     border-radius: 10px;
     background-color: rgb(104, 63, 36);
     width: 32%;
-    padding-bottom: 8%;
+    padding-bottom: 10px;
+    padding-top: 10px;
     margin-bottom: 2%; 
     text-align: center;
     justify-content: center;
+    
   }
   .item-meny:hover{
       background-color: rgb(102, 78, 41);
