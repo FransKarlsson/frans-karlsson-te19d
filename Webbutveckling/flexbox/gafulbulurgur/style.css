@@ -42,6 +42,7 @@ header {
     margin-bottom: 2%; 
     text-align: center;
     justify-content: center;
+    flex-direction: column;
     
   }
   .item-meny:hover{
