@@ -1,2 +1,3 @@
-import numpy as np 
+import numpy
+print("Hello world")
 

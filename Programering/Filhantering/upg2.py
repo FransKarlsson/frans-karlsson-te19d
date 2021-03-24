@@ -1,12 +1,18 @@
+# a)
 with open('provresultat.txt', 'r', encoding='utf-8') as f:
-    # a)
     resultat=f.read()
     print(resultat)
 
-with open('provresultat.txt', 'w'):
-    # b)
+
+# b)
+with open('provresultat.txt', 'w', encoding='utf-8') as f:  
     resultat=resultat.split('\n')
     resultat.sort()
     print(resultat)
     for i in resultat:
-        f.write(f'\n{resultat}')
+        f.write(f'\n{i}')
+
+     
+
+
+
