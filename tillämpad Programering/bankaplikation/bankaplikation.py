@@ -1,18 +1,14 @@
-import PySimpleGUI as sg 
 
-def start_gui():
-    sg.ChangeLookAndFeel('Reds')
-    sg.set_options(text_justification='left')
-    layout = [[sg.Text('hej hej', font=('Helvetica', 35))]]
+from tkinter import *
 
+window = Tk()
 
-    while True:
-        event, values = window.read()
-        if event == sg.WIN_CLOSED or event == 'Exit':
-            break
+window.geometry('350x200')
 
-    event, values = window.read()
+window.title("_xX Cool bank aplication xX_")
 
+lbl = Label(window, text="Hello", font=("Arial Bold", 20))
 
-start_gui()
+lbl.grid(column=0, row=0)
 
+window.mainloop()
